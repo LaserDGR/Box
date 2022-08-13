@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
 
+
 html{
   box-sizing: border-box;
 }
@@ -16,17 +17,16 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
- font-family: 'Poppins';
+  font-family: 'Dancing Script', cursive;
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Dancing Script', cursive;
+  margin-left: 15px;
   text-align: start;
   position: relative;
-  font-size: 2.5vw;
-  color: #00060623;
-  -webkit-text-stroke: 0.3vw #00060623;
-  text-transform: uppercase;
+  font-size: 60px;
+  color: #00060600;
 }
 
 h2::before {
@@ -36,9 +36,9 @@ h2::before {
   left: 0;
   width: 0;
   height: 100%;
-  color: #00a6ffdc;
-  -webkit-text-stroke: 0vw #00060623;
-  border-right: 2px solid#00a6ffdc;
+  color: #ff02ffdc;
+  border-right: 2px solid#f006d1e5;
+  -webkit-text-stroke: 1px #7297fde5;
   overflow: hidden;
   animation: animate 8s linear infinite;
 }
