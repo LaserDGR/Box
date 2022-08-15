@@ -169,6 +169,7 @@ outline: transparent;
   height: 17px;
 }
 output{
+  
   color: white;
 }
 @media (max-width: 620px){

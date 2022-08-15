@@ -8,6 +8,10 @@ const size = document.querySelector('.size')
 const sizeOut = document.querySelector('.size-output')
 const radius = document.querySelector('.radius')
 const radiusOut = document.querySelector('.radius-output')
+const contrasting = document.querySelector('.contrasting')
+const contrastingOut = document.querySelector('.contrasting-output')
+const saturation = document.querySelector('.saturation')
+const saturationOut = document.querySelector('.saturation-output')
 /* background-color: rgba(255, 255, 255, 0.446); */
 let colorRgb = []
 let inRgb;
@@ -61,3 +65,14 @@ radius.addEventListener('input', (e)=>{
     box.style.borderRadius = `${e.target.value}px`
     radiusOut.value = `${e.target.value}px`
 });
+contrasting.addEventListener('input', (e)=>{
+    contrast = e.target.value;
+    box.style.cssText += `backdrop-filter: contrast(${contrast}%)`;
+    contrastingOut.value = `${e.target.value}px`
+});
+  saturation.addEventListener('input', (e) =>{
+  saturate = e.target.value;
+  box.style.cssText += `backdrop-filter: saturate(${saturate}%)`;
+  saturationOut.value = `${e.target.value}px`
+});
+
