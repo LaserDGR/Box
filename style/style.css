@@ -10,7 +10,7 @@ html{
 
 body {
   background-image: url(../Img/Sky_Two_Night_456545.jpg);
-  height: 100vh;
+  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -25,7 +25,7 @@ h2 {
   margin-left: 15px;
   text-align: start;
   position: relative;
-  font-size: 60px;
+  font-size: 45px;
   color: #00060600;
 }
 
@@ -36,9 +36,9 @@ h2::before {
   left: 0;
   width: 0;
   height: 100%;
-  color: #ff02ffdc;
+  color: #7297fd41;
   border-right: 2px solid#f006d1e5;
-  -webkit-text-stroke: 1px #7297fde5;
+  -webkit-text-stroke: 1px #f006a645;
   overflow: hidden;
   animation: animate 8s linear infinite;
 }
@@ -72,7 +72,7 @@ h2::before {
   /* opacity: 50%; */
 }
 .input{
-  height: 450px;
+  height: 350px;
   /* background-color: pink; */
   display: flex;
   flex-direction: column;
@@ -107,7 +107,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: rgba(1, 16, 131, 0.227);
+ /* background-color: rgba(1, 16, 131, 0.227);*/
   border-radius: 50px;
   width: 300px;
   height: 80px;
@@ -205,4 +205,13 @@ output{
       color: white;
       font-size: 14px;
   }
+}
+
+.code-box {
+  width: 300px;
+  height: 130px;
+  text-align: center;
+  color:rgb(1, 0, 1);
+  background: rgba(255, 255, 255, 0.248);
+  font-size: 1rem;
 }
